@@ -5,63 +5,59 @@ limitLineLength: false
 
 patterns: [
     {
-      'match': "\\b0'.\\b"
+      'match': "[0-9]"
       'name': 'constant.numeric.imperator'
     }
     {
-      'match': '='
+      'match': '\='
       'name': 'keyword.operator.equal.imperator'
     }
     {
-      'match': '/='
+      'match': '\/='
       'name': 'keyword.operator.notequal.imperator'
     }
     {
-      'match': '<'
+      'match': '\<'
       'name': 'keyword.operator.lt.imperator'
     }
     {
-      'match': '=<'
+      'match': '\=<'
       'name': 'keyword.operator.le.imperator'
     }
     {
-      'match': '>'
+      'match': '\>'
       'name': 'keyword.operator.gt.imperator'
     }
     {
-      'match': '>='
+      'match': '\>='
       'name': 'keyword.operator.ge.imperator'
     }
     {
-      'match': ':='
+      'match': '\:='
       'name': 'keyword.operator.assign.imperator'
     }
     {
-      'match': '\\+'
+      'match': '\+'
       'name': 'keyword.operator.add.imperator'
     }
     {
-      'match': '-'
+      'match': '\-'
       'name': 'keyword.operator.sub.imperator'
     }
     {
-      'match': '\\*'
+      'match': '\*'
       'name': 'keyword.operator.mul.imperator'
     }
     {
-      'match': '\\/'
+      'match': '\/'
       'name': 'keyword.operator.div.imperator'
     }
     {
-      'match': ';'
+      'match': '\;'
       'name': 'keyword.operator.separator.imperator'
     }
     {
-      'match': '\\b\\d+(\\.\\d+)?([eE][-+]?\\d+)?\\b'
-      'name': 'constant.numeric.imperator'
-    }
-    {
-      'match': '\\b[A-Z]*\\b'
+      'match': '[A-Z]'
       'name': 'variable.other.imperator'
     }
 ]
