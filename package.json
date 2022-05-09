@@ -1,0 +1,16 @@
+{
+    "name": "language-imperator",
+    "version": "0.0.1",
+    "description": "Imperator language in Atom",
+    "repository": "https://github.com/trigeer/language-imperator",
+    "keywords": [
+        "syntax",
+        "highlighting",
+        "grammar"
+    ],
+    "license": "MIT",
+    "bugs": "https://github.com/trigeer/language-imperator/issues",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    }
+}

@@ -1,0 +1,67 @@
+scopeName: 'source.imperator'
+name: 'Imperator'
+fileTypes: ['prog', 'imp']
+limitLineLength: false
+
+patterns: [
+    {
+      'match': "\\b0'.\\b"
+      'name': 'constant.numeric.imperator'
+    }
+    {
+      'match': '='
+      'name': 'keyword.operator.equal.imperator'
+    }
+    {
+      'match': '/='
+      'name': 'keyword.operator.notequal.imperator'
+    }
+    {
+      'match': '<'
+      'name': 'keyword.operator.lt.imperator'
+    }
+    {
+      'match': '=<'
+      'name': 'keyword.operator.le.imperator'
+    }
+    {
+      'match': '>'
+      'name': 'keyword.operator.gt.imperator'
+    }
+    {
+      'match': '>='
+      'name': 'keyword.operator.ge.imperator'
+    }
+    {
+      'match': ':='
+      'name': 'keyword.operator.assign.imperator'
+    }
+    {
+      'match': '\\+'
+      'name': 'keyword.operator.add.imperator'
+    }
+    {
+      'match': '-'
+      'name': 'keyword.operator.sub.imperator'
+    }
+    {
+      'match': '\\*'
+      'name': 'keyword.operator.mul.imperator'
+    }
+    {
+      'match': '\\/'
+      'name': 'keyword.operator.div.imperator'
+    }
+    {
+      'match': ';'
+      'name': 'keyword.operator.separator.imperator'
+    }
+    {
+      'match': '\\b\\d+(\\.\\d+)?([eE][-+]?\\d+)?\\b'
+      'name': 'constant.numeric.imperator'
+    }
+    {
+      'match': '\\b[A-Z]*\\b'
+      'name': 'variable.other.imperator'
+    }
+]
